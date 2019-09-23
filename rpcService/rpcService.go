@@ -7,15 +7,15 @@ import (
 )
 
 type Args struct {
-	A int64
-	B int64
+	A int
+	B int
 }
 
 type Reply struct {
-	C int64
+	C int
 }
 
-type Arith int64
+type Arith int
 
 func (t *Arith) Mul(ctx context.Context, args *Args, reply *Reply) error {
 	reply.C = args.A * args.B

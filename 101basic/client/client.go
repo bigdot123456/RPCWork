@@ -1,10 +1,10 @@
 package main
 
 import (
+
 	"context"
 	"flag"
 	"log"
-	example "rpcx-work"
 	"time"
 
 	myRPC "github.com/bigdot123456/RPCWork/rpcService"
@@ -29,7 +29,7 @@ func main() {
 	}
 
 	for {
-		reply := &example.Reply{}
+		reply := &myRPC.Reply{}
 		err := xclient.Call(context.Background(), "Mul", args, reply)
 		if err != nil {
 			log.Fatalf("failed to call: %v", err)
