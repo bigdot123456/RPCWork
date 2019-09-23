@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/client"
 )
 
 var (
-	addr1 = flag.String("addr1", "tcp@localhost:8972", "server address")
+	addr1 = flag.String("addr1", "tcp@0.0.0.0:8972", "server address")
 	addr2 = flag.String("addr2", "tcp@localhost:8973", "server address")
 )
 

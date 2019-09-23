@@ -11,12 +11,12 @@ import (
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/smallnest/rpcx/share"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/client"
 )
 
 var (
-	addr = flag.String("addr", "localhost:8972", "server address")
+	addr = flag.String("addr", "0.0.0.0:8972", "server address")
 )
 
 func main() {

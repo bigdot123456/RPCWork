@@ -6,14 +6,14 @@ import (
 	"flag"
 	"net"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/server"
 	kcp "github.com/xtaci/kcp-go"
 	"golang.org/x/crypto/pbkdf2"
 )
 
 var (
-	addr = flag.String("addr", "localhost:8972", "server address")
+	addr = flag.String("addr", "0.0.0.0:8972", "server address")
 )
 
 const cryptKey = "rpcx-key"

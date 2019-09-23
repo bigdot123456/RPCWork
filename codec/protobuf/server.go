@@ -5,12 +5,12 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/rpcx-ecosystem/rpcx-examples3/codec/protobuf/pb"
+	"github.com/bigdot123456/RPCWork/codec/protobuf/pb"
 	"github.com/smallnest/rpcx/server"
 )
 
 var (
-	addr = flag.String("addr", "localhost:8972", "server address")
+	addr = flag.String("addr", "0.0.0.0:8972", "server address")
 )
 
 type Arith int

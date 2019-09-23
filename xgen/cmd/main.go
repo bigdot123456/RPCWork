@@ -10,12 +10,12 @@ import (
   metrics "github.com/rcrowley/go-metrics"
   "github.com/smallnest/rpcx/server"
   "github.com/smallnest/rpcx/serverplugin"
-  "github.com/rpcx-ecosystem/rpcx-examples3/xgen"
+  "github.com/bigdot123456/RPCWork/xgen"
 )
 
 
 var (
-	addr     = flag.String("addr", "localhost:8972", "server address")
+	addr     = flag.String("addr", "0.0.0.0:8972", "server address")
 	basePath = flag.String("base", "/rpcx", "prefix path")
 )
 	

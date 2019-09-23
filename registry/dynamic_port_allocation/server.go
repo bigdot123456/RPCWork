@@ -7,7 +7,7 @@ import (
 	"time"
 
 	metrics "github.com/rcrowley/go-metrics"
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/server"
 	"github.com/smallnest/rpcx/serverplugin"
 )

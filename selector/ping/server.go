@@ -4,12 +4,12 @@ import (
 	"context"
 	"flag"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/server"
 )
 
 var (
-	addr1 = flag.String("addr1", "localhost:8972", "server address")
+	addr1 = flag.String("addr1", "0.0.0.0:8972", "server address")
 	addr2 = flag.String("addr2", "baidu.com:80", "server address")
 )
 

@@ -7,13 +7,13 @@ import (
 	"flag"
 	"log"
 
-	"github.com/rpcx-ecosystem/rpcx-examples3/codec/protobuf/pb"
+	"github.com/bigdot123456/RPCWork/codec/protobuf/pb"
 	"github.com/smallnest/rpcx/client"
 	"github.com/smallnest/rpcx/protocol"
 )
 
 var (
-	addr = flag.String("addr", "localhost:8972", "server address")
+	addr = flag.String("addr", "0.0.0.0:8972", "server address")
 )
 
 func main() {

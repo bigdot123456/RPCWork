@@ -7,13 +7,13 @@ import (
 	"time"
 
 	metrics "github.com/rcrowley/go-metrics"
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/server"
 	"github.com/smallnest/rpcx/serverplugin"
 )
 
 var (
-	addr     = flag.String("addr", "localhost:8972", "server address")
+	addr     = flag.String("addr", "0.0.0.0:8972", "server address")
 	zkAddr   = flag.String("zkAddr", "localhost:2181", "zookeeper address")
 	basePath = flag.String("base", "/rpcx_test", "prefix path")
 )

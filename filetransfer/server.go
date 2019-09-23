@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	addr             = flag.String("addr", "localhost:8972", "server address")
+	addr             = flag.String("addr", "0.0.0.0:8972", "server address")
 	fileTransferAddr = flag.String("transfer-addr", "localhost:8973", "data transfer address")
 )
 

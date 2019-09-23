@@ -6,13 +6,13 @@ import (
 	"github.com/smallnest/rpcx/protocol"
 	"github.com/smallnest/rpcx/share"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
-	"github.com/rpcx-ecosystem/rpcx-examples3/codec/iterator/codec"
+	example "github.com/bigdot123456/RPCWork"
+	"github.com/bigdot123456/RPCWork/codec/iterator/codec"
 	"github.com/smallnest/rpcx/server"
 )
 
 var (
-	addr = flag.String("addr", "localhost:8972", "server address")
+	addr = flag.String("addr", "0.0.0.0:8972", "server address")
 )
 
 func main() {

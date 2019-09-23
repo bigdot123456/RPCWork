@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/client"
 )
 

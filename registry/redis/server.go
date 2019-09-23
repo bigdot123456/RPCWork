@@ -6,13 +6,13 @@ import (
 	"log"
 	"time"
 
-	example "github.com/rpcx-ecosystem/rpcx-examples3"
+	example "github.com/bigdot123456/RPCWork"
 	"github.com/smallnest/rpcx/server"
 	"github.com/smallnest/rpcx/serverplugin"
 )
 
 var (
-	addr      = flag.String("addr", "localhost:8972", "server address")
+	addr      = flag.String("addr", "0.0.0.0:8972", "server address")
 	redisAddr = flag.String("redisAddr", "localhost:6379", "redis address")
 	basePath  = flag.String("base", "/rpcx_test", "prefix path")
 )
