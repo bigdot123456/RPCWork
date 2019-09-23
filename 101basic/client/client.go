@@ -4,9 +4,10 @@ import (
 	"context"
 	"flag"
 	"log"
+	example "rpcx-work"
 	"time"
 
-	example "github.com/bigdot123456/RPCWork"
+	myRPC "github.com/bigdot123456/RPCWork/rpcService"
 	"github.com/smallnest/rpcx/client"
 )
 
@@ -22,9 +23,9 @@ func main() {
 	xclient := client.NewXClient("Arith", client.Failtry, client.RandomSelect, d, client.DefaultOption)
 	defer xclient.Close()
 
-	args := &example.Args{
-		A: 10,
-		B: 20,
+	args := &myRPC.Args{
+		A: 100,
+		B: 200,
 	}
 
 	for {
