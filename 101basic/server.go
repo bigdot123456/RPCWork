@@ -5,6 +5,7 @@ import (
 	// example "rpcx-work"
 
 	myRPC "github.com/bigdot123456/RPCWork/rpcService"
+	// myRPC "../../rpcx-work/rpcService"
 	"github.com/smallnest/rpcx/server"
 )
 
