@@ -1,4 +1,4 @@
-module rpcx-work
+module RPCWork
 
 go 1.13
 
