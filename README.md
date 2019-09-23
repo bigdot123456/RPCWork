@@ -1,3 +1,26 @@
+# RPCWork
+
+1. Create project 
+
+```bash
+echo "# RPCWork" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/bigdot123456/RPCWork.git
+git push -u origin master
+```
+2. notice 
+
+server should listen all ip, as this code :
+```go
+var (
+	addr = flag.String("addr", "0.0.0.0:8972", "server address")
+)
+```
+localhost is an error for other ip access
+
+
 # Examples for rpcx 3.0
 
 A lot of examples for [rpcx](https://github.com/smallnest/rpcx/tree/v3.0) 3.0
@@ -45,4 +68,4 @@ And
 cd 101basic/client
 go run client.go
 ```
-# RPCWork
+
