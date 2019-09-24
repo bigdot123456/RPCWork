@@ -2,10 +2,9 @@ package main
 
 import (
 	"flag"
-	// example "rpcx-work"
 
-	myRPC "github.com/bigdot123456/RPCWork/rpcService"
-	// myRPC "../../rpcx-work/rpcService"
+	//myRPC "github.com/bigdot123456/RPCWork/rpcService"
+	"RPCWork/rpcService"
 	"github.com/smallnest/rpcx/server"
 )
 
@@ -18,6 +17,6 @@ func main() {
 
 	s := server.NewServer()
 	//s.RegisterName("Arith", new(example.Arith), "")
-	s.Register(new(myRPC.Arith), "")
+	s.Register(new(rpcService.Arith), "")
 	s.Serve("tcp", *addr)
 }

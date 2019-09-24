@@ -1,19 +1,17 @@
 package main
 
 import (
-
+	"RPCWork/rpcService"
 	"context"
 	"flag"
+	"github.com/smallnest/rpcx/client"
 	"log"
 	"time"
-
-	myRPC "github.com/bigdot123456/RPCWork/rpcService"
-	"github.com/smallnest/rpcx/client"
 )
 
 var (
-//	addr = flag.String("addr", "0.0.0.0:8972", "server address")
-	addr = flag.String("addr", "10.0.0.4:8972", "server address")
+	//	addr = flag.String("addr", "0.0.0.0:8972", "server address")
+	addr = flag.String("addr", "10.0.0.5:8972", "server address")
 )
 
 func main() {
@@ -23,13 +21,13 @@ func main() {
 	xclient := client.NewXClient("Arith", client.Failtry, client.RandomSelect, d, client.DefaultOption)
 	defer xclient.Close()
 
-	args := &myRPC.Args{
-		A: 100,
+	args := &rpcService.Args{
+		A: 800,
 		B: 200,
 	}
 
 	for {
-		reply := &myRPC.Reply{}
+		reply := &rpcService.Reply{}
 		err := xclient.Call(context.Background(), "Mul", args, reply)
 		if err != nil {
 			log.Fatalf("failed to call: %v", err)
