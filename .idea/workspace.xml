@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="162cdd58-3e7a-4e4d-b83a-c3b95089d7f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/101basic/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/101basic/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101basic/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/101basic/server.go" afterDir="false" />
-    </list>
+    <list default="true" id="162cdd58-3e7a-4e4d-b83a-c3b95089d7f3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +14,7 @@
   </component>
   <component name="ProjectId" id="1REVaa1sWrRnlponzm4J8cMNACb" />
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -64,5 +62,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改了本地服务，之前是各种问题，现在通过尝试，和主动github下载实现了&#10;go get -u -v -tags &quot;reuseport quic kcp zookeeper etcd consul ping&quot; github.com/smallnest/rpcx/...&#10;git clone https://github.com/apache/thrift&#10;git clone https://github.com/gogo/protobuf" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了本地服务，之前是各种问题，现在通过尝试，和主动github下载实现了&#10;go get -u -v -tags &quot;reuseport quic kcp zookeeper etcd consul ping&quot; github.com/smallnest/rpcx/...&#10;git clone https://github.com/apache/thrift&#10;git clone https://github.com/gogo/protobuf" />
   </component>
 </project>
